@@ -1,0 +1,35 @@
+{
+    "name": "swow-cloud/consul",
+    "description": "A Consul Client for Swow.",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "swow",
+        "consul",
+        "consul-client"
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": {
+            "SwowCloud\\Consul\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SwowCloudTest\\Consul\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }
+    },
+    "version": "dev-master"
+}
